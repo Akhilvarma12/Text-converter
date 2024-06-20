@@ -53,7 +53,7 @@ function Textform(props) {
             rows="10"
             style={{
               backgroundColor: props.mode === "dark" ? "black" : "white",
-              color: props.mode === "light" ? "black" : "white",
+              color: props.mode === "light" ? "black" : "black",
             }}
           ></textarea>
         </div>
